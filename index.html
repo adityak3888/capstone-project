@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learnify – Online Learning Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="brand-logo" aria-hidden="true">🎓</span>
+                <span class="brand-name">Learnify</span>
+            </div>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main-content">
+        <!-- HERO / BANNER -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <article class="hero-text">
+                    <h1>Unlock Your Potential with Online Learning</h1>
+                    <p class="hero-tagline">
+                        Join thousands of learners and access top-rated courses from expert instructors.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#courses" class="btn btn-primary">Browse Courses</a>
+                        <a href="#pricing" class="btn btn-secondary">View Pricing</a>
+                    </div>
+                    <p class="hero-subtext">
+                        Learn anytime, anywhere, at your own pace.
+                    </p>
+                </article>
+
+                <aside class="hero-image-wrapper" aria-label="Students learning online">
+                    <img
+                        src="start.jpg"
+                        alt="Students learning online using laptops"
+                        class="hero-image">
+                </aside>
+            </div>
+        </section>
+
+        <!-- POPULAR CATEGORIES -->
+        <section id="categories" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Popular Categories</h2>
+                    <p>Pick a category to start learning something new today.</p>
+                </header>
+
+                <div class="grid category-grid">
+                    <article class="card category-card">
+                        <h3>Development</h3>
+                        <p>Web, mobile, and backend development.</p>
+                    </article>
+                    <article class="card category-card">
+                        <h3>Design</h3>
+                        <p>UI/UX, graphic design, and product design.</p>
+                    </article>
+                    <article class="card category-card">
+                        <h3>Business</h3>
+                        <p>Strategy, marketing, and entrepreneurship.</p>
+                    </article>
+                    <article class="card category-card">
+                        <h3>Data &amp; Analytics</h3>
+                        <p>Data science, Excel, and BI tools.</p>
+                    </article>
+                    <article class="card category-card">
+                        <h3>Languages</h3>
+                        <p>English, Spanish, German and more.</p>
+                    </article>
+                    <article class="card category-card">
+                        <h3>Personal Growth</h3>
+                        <p>Productivity, habits, and mindfulness.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED COURSES (GRID) -->
+        <section id="courses" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Featured Courses</h2>
+                    <p>Handpicked courses to kickstart your learning journey.</p>
+                </header>
+
+                <div class="grid course-grid">
+                    <article class="card course-card">
+                        <img src="dev.avif" alt="Laptop with code editor" class="course-image">
+                        <div class="course-body">
+                            <h3>Modern Web Development Bootcamp</h3>
+                            <p>Learn HTML, CSS, and JavaScript from scratch with real projects.</p>
+                            <ul class="course-meta">
+                                <li>Level: Beginner</li>
+                                <li>Duration: 12 weeks</li>
+                                <li>Rating: ⭐ 4.8</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card course-card">
+                        <img src="workspace.jpg" alt="Designer workspace" class="course-image">
+                        <div class="course-body">
+                            <h3>UI/UX Design Masterclass</h3>
+                            <p>Design beautiful and user-friendly apps using Figma.</p>
+                            <ul class="course-meta">
+                                <li>Level: Beginner–Intermediate</li>
+                                <li>Duration: 8 weeks</li>
+                                <li>Rating: ⭐ 4.7</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card course-card">
+                        <img src="dashboard.png" alt="Charts and analytics on a screen" class="course-image">
+                        <div class="course-body">
+                            <h3>Data Analytics with Excel &amp; Power BI</h3>
+                            <p>Turn raw data into insights using practical tools.</p>
+                            <ul class="course-meta">
+                                <li>Level: Intermediate</li>
+                                <li>Duration: 10 weeks</li>
+                                <li>Rating: ⭐ 4.6</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>What Our Learners Say</h2>
+                </header>
+
+                <div class="grid testimonial-grid">
+                    <article class="card testimonial-card">
+                        <div class="testimonial-text">
+                            “Learnify helped me switch careers into web development. The projects and mentors were amazing.”
+                        </div>
+                        <div class="testimonial-meta">
+                            <img src="profile.png" alt="Photo of Aditya, learner" class="testimonial-avatar">
+                            <div>
+                                <p class="testimonial-name">Aditya Kumar</p>
+                                <p class="testimonial-role">Front-End Developer</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card testimonial-card">
+                        <div class="testimonial-text">
+                            “The UI/UX course gave me confidence to design real products. Love the bite-sized lessons.”
+                        </div>
+                        <div class="testimonial-meta">
+                            <div class="testimonial-placeholder-avatar" aria-hidden="true">A</div>
+                            <div>
+                                <p class="testimonial-name">Ananya Singh</p>
+                                <p class="testimonial-role">Product Designer</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING -->
+        <section id="pricing" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Simple, Transparent Pricing</h2>
+                    <p>Choose a plan that fits your learning goals.</p>
+                </header>
+
+                <div class="grid pricing-grid">
+                    <article class="card pricing-card">
+                        <h3>Starter</h3>
+                        <p class="price">₹499<span>/month</span></p>
+                        <ul class="pricing-features">
+                            <li>Access to 10 beginner courses</li>
+                            <li>Community support</li>
+                            <li>Certificates of completion</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Get Started</a>
+                    </article>
+
+                    <article class="card pricing-card pricing-card-featured">
+                        <h3>Pro Learner</h3>
+                        <p class="price">₹999<span>/month</span></p>
+                        <ul class="pricing-features">
+                            <li>All current & future courses</li>
+                            <li>1:1 mentor session per month</li>
+                            <li>Downloadable resources</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Most Popular</a>
+                    </article>
+
+                    <article class="card pricing-card">
+                        <h3>Team</h3>
+                        <p class="price">₹2,499<span>/month</span></p>
+                        <ul class="pricing-features">
+                            <li>Up to 10 team members</li>
+                            <li>Admin dashboard</li>
+                            <li>Progress reports</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">Talk to Sales</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT / FORM -->
+        <section id="contact" class="section">
+            <div class="container contact-layout">
+                <article>
+                    <header class="section-header">
+                        <h2>Contact Us</h2>
+                        <p>Have a question about courses or plans? Send us a message.</p>
+                    </header>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="topic">Topic</label>
+                            <select id="topic" name="topic" required>
+                                <option value="">Select a topic</option>
+                                <option value="courses">Courses</option>
+                                <option value="pricing">Pricing & plans</option>
+                                <option value="technical">Technical support</option>
+                                <option value="other">Something else</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </article>
+
+                <aside class="contact-aside">
+                    <h3>Need quick help?</h3>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> support@learnify.com</li>
+                        <li><strong>Phone:</strong> +91-98765-43210</li>
+                        <li><strong>Hours:</strong> Mon–Fri, 9:00 AM – 6:00 PM IST</li>
+                    </ul>
+                    <p>Follow us</p>
+                    <div class="social-links" aria-label="Social media links">
+                        <!-- very simple SVG-like text icons -->
+                        <a href="#" aria-label="Visit our Instagram">IG</a>
+                        <a href="#" aria-label="Visit our LinkedIn">in</a>
+                        <a href="#" aria-label="Visit our YouTube">YT</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Learnify. All rights reserved.</p>
+            <nav aria-label="Footer navigation">
+                <ul class="footer-nav">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
